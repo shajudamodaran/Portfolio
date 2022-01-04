@@ -1,0 +1,57 @@
+.workflow-card-container{
+    background-color: #2B2B2B;
+    padding: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    margin: 0px .6rem;
+    max-width: 150px;
+    min-width: 150px;
+    min-height: 150px;
+    max-height: 150px;
+
+    margin-bottom: 1rem;
+
+}
+
+
+.workflow-card-container:hover{
+    background-color: #00FFBB;
+    color:black ;
+
+}
+
+.workflow-card-tittle{
+
+    font-size: 1rem;
+    font-family:"SFPRODISPLAYBOLD" ;
+    font-weight: 500;
+    letter-spacing: .06rem;
+
+}
+
+.workflow-card-content{
+
+    font-size: .75rem;
+    font-family:"roboto" ;
+    font-weight: 400;
+    letter-spacing: .06rem;
+    line-height: 1.3rem;
+
+}
+
+.workflow-card-icon{
+    margin-bottom: .8rem;
+}
+
+
+@media only screen and (max-width: 862px) {
+
+    .workflow-card-container{
+
+        min-width: 60%;
+        margin-bottom: 2rem;
+    }
+
+    
+
+}

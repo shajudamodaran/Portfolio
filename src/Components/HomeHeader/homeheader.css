@@ -1,0 +1,110 @@
+.home-header-container{
+
+    width: 100vw;
+    background-color: #212121a2;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    z-index: 101;
+    max-width: 100%;
+    overflow: auto;
+    transition-duration: .5s;
+  
+
+}
+
+.home-header-container-hidden{
+
+height: 0px;
+ transition-duration: .5s;
+ overflow: hidden;
+
+}
+
+.home-header-logo-normal{
+  display: flex;
+  margin: .8rem;
+  margin-left: 4rem;
+}
+
+
+.home-header-logo-responsive{
+  display: none;
+  margin: .8rem;
+}
+
+.home-header-menulist{
+    list-style: none;
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 4rem;
+
+}
+
+.home-header-menulist li{
+
+    margin-right: 1.5rem;
+    color: white;
+    cursor: pointer;
+  
+}
+
+.home-header-menulist button{
+
+  background-color: #00FFBB;
+  outline: 0px;
+  border: 0px;
+  padding: 1rem 2rem;
+  border-radius: 100px;
+  cursor: pointer;
+  
+}
+
+
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+    border-radius: 100px;
+    height: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 100px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(199, 199, 199);
+  }
+
+
+
+  @media only screen and (max-width: 862px) {
+
+    .home-header-menulist{
+      display: none;
+    }
+
+
+    .home-header-logo-normal{
+      display: none;
+    }
+    
+    
+    .home-header-logo-responsive{
+      display: flex;
+    }
+   
+  }
